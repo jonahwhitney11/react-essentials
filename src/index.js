@@ -6,12 +6,19 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <ul>
+    <li>January</li>
+    <li>February</li>
+    <li>March</li>
+    <li>April</li>
+    <li>May</li>
+    <li>June</li>
+    <li>July</li>
+    <li>August</li>
+    <li>September</li>
+    <li>October</li>
+    <li>November</li>
+    <li>December</li>
+  </ul>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
